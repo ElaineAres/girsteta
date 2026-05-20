@@ -94,7 +94,7 @@ img {
 }
 
 .brand__logo {
-  width: clamp(126px, 14vw, 172px);
+  width: clamp(72px, 8vw, 94px);
   height: auto;
   object-fit: contain;
 }
@@ -891,12 +891,12 @@ body.cursor-enabled .cursor-house.is-active::after {
   }
 
   .brand__logo {
-    width: 118px;
+    width: 76px;
   }
 
   .brand__line {
-    max-width: 148px;
-    font-size: 0.66rem;
+    max-width: 124px;
+    font-size: 0.62rem;
     line-height: 1.2;
   }
 
