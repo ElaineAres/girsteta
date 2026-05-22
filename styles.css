@@ -392,6 +392,14 @@ img {
   font-size: clamp(1.06rem, 1.9vw, 1.42rem);
 }
 
+.intro__text p {
+  margin: 0 0 18px;
+}
+
+.intro__text p:last-child {
+  margin-bottom: 0;
+}
+
 .section__head {
   max-width: 760px;
   margin-bottom: 36px;
@@ -607,6 +615,7 @@ img {
   align-content: start;
   gap: 12px;
   color: var(--muted);
+  font-style: normal;
 }
 
 .contact-details a,
